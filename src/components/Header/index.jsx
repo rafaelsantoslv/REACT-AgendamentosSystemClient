@@ -1,36 +1,36 @@
 import React from 'react';
+import {SectionNav } from './styles';
+import Logo from '../../assets/logo300.png'
 
 function Header() {
   return (
-    <header className='bg-gray-900 text-white p-5'>
-      <section className='container mx-auto flex items-center justify-between'>
-        <div className=''>
-          <a href="#" className='text-xl font-bold'>
-            Logo
+      <SectionNav>
+        <div>
+          <a href="#">
+            <img src={Logo} alt="" />
           </a>
         </div>
-        <ul className='flex space-x-4'>
+        <ul>
           <li>
-            <a href="#" className='hover:text-gray-300'>
+            <a href="#">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className='hover:text-gray-300'>
+            <a href="#">
               Serviços
             </a>
           </li>
           <li>
-            <a href="#" className='hover:text-gray-300'>
+            <a href="#">
               Contato
             </a>
           </li>
         </ul>
-        <button className='bg-sky-950 hover:bg-blue-500 text-white px-4 py-2 rounded'>
+        <button>
           Agendar Online
         </button>
-      </section>
-    </header>
+      </SectionNav>
   );
 }
 
