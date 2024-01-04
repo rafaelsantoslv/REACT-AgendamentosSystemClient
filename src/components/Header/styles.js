@@ -8,6 +8,7 @@ export const SectionNav = styled.nav`
   padding: 1rem;
   background-color: #333;
   color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
   div {
     display: flex;
